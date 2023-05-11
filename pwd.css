@@ -1,0 +1,55 @@
+.main{
+    background : url(/pwdgenerator/images/photo.webp);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.box{
+    background-color: black;
+    color:white;
+    border: black;
+    border: 5px solid rgb(172, 157, 157);
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+#pass-box{
+    border:1px solid white;
+    width:97%;
+    display:block;
+    font-size: 50px;
+    color:black;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    margin-right: 10px;
+ }
+.row{
+    
+    width:100%;
+    display:flex;
+    font-size: 20px;
+    margin:5px;
+    paddin:10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.right{
+    justify-items: right;
+    
+}
+#btn{
+   align-self: center;
+   margin-left: 100px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.right{
+    margin-right: 0px;
+    margin-left: 90px;
+    align-self:flex-end;
+}
